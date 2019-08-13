@@ -1,0 +1,47 @@
+#Navigation {
+    display:flex;
+}
+
+#Navigation #NavBar {
+    width: 175px;
+    padding: 10px;
+    background-color: #374258;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+}
+
+#Navigation > section:nth-child(2) {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    left: 196px;
+    right: 0;
+}
+
+#Navigation > #NavBar {
+    display: flex;
+    color: white;
+}
+
+#Navigation > #NavBar > ul > li {
+    padding-top: 10px;
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#Navigation > #NavBar > ul > li:hover {
+    transform: skew(-15deg);
+    color: #56b42a;
+    opacity: 0.5 !important;
+    cursor: pointer;
+}
+
+#Navigation > #NavBar > ul > li.selected {
+    border-bottom: #56b42a solid;
+    color: #56b42a;
+    opacity: 1.0;
+}

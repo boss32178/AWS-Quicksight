@@ -1,0 +1,32 @@
+#UserSettings > form {
+    display: flex;
+    flex: 1 0 1px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#UserSettings > form > label {
+    padding: 5px;
+}
+#UserSettings > form > label > input,
+#UserSettings > form > label > select {
+    margin-left: 10px;
+}
+
+#UserSettings > form > label > input.email{
+    width: 325px;
+}
+
+
+#UserSettings > form > div.button {
+    margin: 5px;
+    width: 75px;
+    height: 25px;
+    background-color: #56b42a;
+    color: white;
+}
+#UserSettings > form > div.button:hover {
+    transform: skew(-15deg);
+    cursor: pointer;
+}
